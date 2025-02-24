@@ -1,0 +1,28 @@
+# Ignore Composer's vendor directory (if installed)
+vendor/
+
+# Node.js dependencies and build files
+node_modules/
+bower_components/
+dist/
+
+# Log files and caches
+*.log
+*.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+
+# Ignore any temporary or backup files
+*~
+*.swp
+
+# Exclude build artifacts
+*.zip

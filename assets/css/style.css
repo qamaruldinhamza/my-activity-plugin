@@ -1,0 +1,46 @@
+/* assets/css/style.css */
+
+/* Container styling for the activity widget */
+#activity-widget-container {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styling for the date range selector */
+#activity-date-range {
+    margin-bottom: 15px;
+}
+#activity-date-range label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+#activity-date-range input[type="date"] {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Canvas styling: Ensure the charts are responsive */
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Export CSV button style */
+#export-csv {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #activity-date-range label,
+    #activity-date-range input[type="date"] {
+        display: block;
+        margin-bottom: 5px;
+    }
+}

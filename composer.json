@@ -1,0 +1,10 @@
+{
+    "name": "qamaruldinhamza/my-activity-plugin",
+    "description": "plugin for tracking user activity",
+    "autoload": {
+        "psr-4": {
+            "Qamaruldinhamza\\MyActivityPlugin\\": "includes/"
+        }
+    },
+    "require": {}
+}
